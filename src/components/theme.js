@@ -5,7 +5,7 @@ const theme = Object.freeze({
   },
   colors: {
     primary: "#E86C6C",
-    secondary: "#009efd",
+    secondary: "#E86C6C",
     gradient: "linear-gradient(180deg, #009efd 0%, #2af598  100%)",
     light: "#F5F5F5"
   },

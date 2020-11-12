@@ -65,11 +65,7 @@ function Map() {
           frameBorder="0"
           allowfullscreen=""
         ></GoogleMap>
-        <GoogleMap
-          src={events[1].occasion.place.map}
-          frameBorder="0"
-          allowfullscreen=""
-        ></GoogleMap>
+
       </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
