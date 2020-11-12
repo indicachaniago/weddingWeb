@@ -64,6 +64,11 @@ function Profile() {
         <Title data-sal="slide-up" data-sal-delay="200">
           Dica & Debby
         </Title>
+        <h1 data-sal="slide-up" data-sal-delay="300"> 
+            Bismillahirrahmanirrahim 
+        </h1>
+        <p><b>Assalamu`alaikum Warahmatullahi Wabarakatuh,</b>
+        Dengan memohon rahmat serta ridho Allah Subhanahu Wa Ta`ala kami bermaksud menyelenggarakan acara pernikahan kami:</p>
       </TitleContainer>
       <CardContainer>
         <ProfileCard image={brideImg} {...profiles[0]} />
