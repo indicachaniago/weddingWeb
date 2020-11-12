@@ -35,7 +35,7 @@ const MapContainer = styled.div``;
 
 const GoogleMap = styled.iframe`
   border: 0;
-  width: 120%;
+  width: 100%;
   height: 120%;
 `;
 

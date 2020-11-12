@@ -49,6 +49,7 @@ const QUERY = graphql`
           name
           place {
             name
+            detailLocation
           }
           time
         }
@@ -78,7 +79,7 @@ function DateList() {
               <span>{event.occasion.name} </span>
               <p>
                 <StyledIcon icon={faMapMarkerAlt} />
-                <strong> {event.occasion.place.name}</strong>
+                <strong> {event.occasion.place.name}</strong> {event.occasion.place.detailLocation}
               </p>
               <p>
                 <StyledIcon icon={faClock} />

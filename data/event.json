@@ -19,11 +19,12 @@
   ],
   "events": [
     {
-      "title": "23-December-2020",
+      "title": "December 23, 2020",
       "occasion": {
         "name": "Akad",
         "place": {
           "name": "Kediaman Mempelai Wanita",
+          "detailLocation" : ", Balai Desa Peringombo",
           "map": "https://maps.google.com/maps?q=Balai%20Desa%20Pringombo&t=&z=15&ie=UTF8&iwloc=&output=embed"
         },
         "time": "07:30AM - 09:00AM"
@@ -39,6 +40,7 @@
         "name": "Resepsi",
         "place": {
           "name": "Kediaman Mempelai Wanita",
+          "detailLocation" : ", Balai Desa Peringombo",
           "map": "https://maps.google.com/maps?q=Jl.%20Sumatera%207,%20Mulyoharjo,%20Kec.+Pemalang,%20Kabupaten+Pemalang,%20Jawa%20Tengah%2052313&t=&z=13&ie=UTF8&iwloc=&output=embed"
         },
         "time": "09:00AM - 02:00PM"
