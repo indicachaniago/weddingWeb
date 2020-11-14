@@ -31,6 +31,12 @@ const Heading = styled.h2`
   font-weight: 400;
 `;
 
+const Note = styled.div`
+  font-size: 1rem;
+  font-color: #ff;
+  font-weight: 400;
+`;
+
 const MapContainer = styled.div``;
 
 const GoogleMap = styled.iframe`
@@ -69,6 +75,8 @@ function Map() {
       </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
+        <b> Catatan : </b>
+        <Note> <u>sesuai protokol kesehatan, setiap tamu diwajibkan menggunakan masker dan menjaga jarak. </u> </Note>
         <DateList />
       </TextContainer>
     </Container>
