@@ -1,5 +1,7 @@
-import React from "react";
+//import React from "react";
 import styled from "styled-components";
+import React, { Component } from "react";
+import Blink from 'react-blink-text';
 
 import DateList from "./DateList";
 import media from "./media";
@@ -33,8 +35,8 @@ const Heading = styled.h2`
 
 const Note = styled.div`
   font-size: 1rem;
-  font-color: #ff;
   font-weight: 400;
+  color: #a8394c;
 `;
 
 const MapContainer = styled.div``;
@@ -59,6 +61,8 @@ const QUERY = graphql`
   }
 `;
 
+
+
 function Map() {
   const {
     event: { events }
@@ -75,8 +79,11 @@ function Map() {
       </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
-        <b> Catatan : </b>
-        <Note> <u>sesuai protokol kesehatan, setiap tamu diwajibkan menggunakan masker dan menjaga jarak. </u> </Note>
+        <div>
+          <Blink color='Red' text='Catatan :' fontSize='30' fontWeight='bold'>
+        </Blink> 
+      </div>
+        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>sesuai protokol kesehatan, setiap tamu diwajibkan menggunakan masker dan menjaga jarak. </u> </Note>
         <DateList />
       </TextContainer>
     </Container>
@@ -84,3 +91,4 @@ function Map() {
 }
 
 export default Map;
+
