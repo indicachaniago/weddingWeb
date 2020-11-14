@@ -1,6 +1,6 @@
-//import React from "react";
+import React from "react";
 import styled from "styled-components";
-import React, { Component } from "react";
+//import React, { Component } from "react";
 import Blink from 'react-blink-text';
 
 import DateList from "./DateList";
