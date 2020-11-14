@@ -33,12 +33,15 @@ const Heading = styled.h2`
   font-weight: 400;
 `;
 
+<<<<<<< HEAD
 const Note = styled.div`
   font-size: 1rem;
   font-weight: 400;
   color: #a8394c;
 `;
 
+=======
+>>>>>>> parent of 63adb25... update13
 const MapContainer = styled.div``;
 
 const GoogleMap = styled.iframe`
@@ -79,11 +82,14 @@ function Map() {
       </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
+<<<<<<< HEAD
         <div>
           <Blink color='Red' text='Catatan :' fontSize='30' fontWeight='bold'>
         </Blink> 
       </div>
         <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>sesuai protokol kesehatan, setiap tamu diwajibkan menggunakan masker dan menjaga jarak. </u> </Note>
+=======
+>>>>>>> parent of 63adb25... update13
         <DateList />
       </TextContainer>
     </Container>

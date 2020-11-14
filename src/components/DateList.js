@@ -94,7 +94,6 @@ function DateList() {
         </Container>
       ))}
     </Fragment>
-    
   );
 }
 
