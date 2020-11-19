@@ -42,7 +42,7 @@ const MapContainer = styled.div``;
 const GoogleMap = styled.iframe`
   border: 0;
   width: 100%;
-  height: 120%;
+  height: 100%;
 `;
 
 const QUERY = graphql`
@@ -73,7 +73,11 @@ function Map() {
           frameBorder="0"
           allowfullscreen=""
         ></GoogleMap>
-
+        <GoogleMap
+          src={events[2].occasion.place.map}
+          frameBorder="0"
+          allowfullscreen=""
+        ></GoogleMap>
       </MapContainer>
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>

@@ -24,8 +24,8 @@
         "name": "Akad",
         "place": {
           "name": "Kediaman Mempelai Wanita",
-          "detailLocation" : ", Balai Desa Peringombo",
-          "map": "https://maps.google.com/maps?q=Balai%20Desa%20Pringombo&t=&z=15&ie=UTF8&iwloc=&output=embed"
+          "detailLocation" : ", Pringombo, Rongkop, Pakel, Pringombo, Gunung Kidul, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta.",
+          "map": "https://maps.google.com/maps?q=Balai%20Desa%20Pringombo&t=&z=17&ie=UTF8&iwloc=&output=embed"
         },
         "time": "07:30AM - 09:00AM"
       },
@@ -40,13 +40,29 @@
         "name": "Resepsi",
         "place": {
           "name": "Kediaman Mempelai Wanita",
-          "detailLocation" : ", Balai Desa Peringombo",
-          "map": "https://maps.google.com/maps?q=Jl.%20Sumatera%207,%20Mulyoharjo,%20Kec.+Pemalang,%20Kabupaten+Pemalang,%20Jawa%20Tengah%2052313&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          "detailLocation" : ", Pringombo, Rongkop, Pakel, Pringombo, Gunung Kidul, Kabupaten Gunung Kidul, Daerah Istimewa Yogyakarta.",
+          "map": "https://maps.google.com/maps?q=Jl.%20Sumatera%207,%20Mulyoharjo,%20Kec.+Pemalang,%20Kabupaten+Pemalang,%20Jawa%20Tengah%2052313&t=&z=17&ie=UTF8&iwloc=&output=embed"
         },
         "time": "09:00AM - 02:00PM"
       },
       "calendar": {
         "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20201223T020000Z%2F20201223T070000Z&details=&location=Balai%20Desa%20Pringombo&t&text=Dica%20%26%20Debby%20Resepsi&trp=false",
+        "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
+      }
+    },
+    {
+      "title": "January 11, 2021",
+      "occasion": {
+        "name": "Ngunduh Mantu",
+        "place": {
+          "name": "Kediaman Mempelai Pria",
+          "detailLocation" : ", Jl.Sumatra 7 No.4, Kel.Mulyoharjo, Kec.Pemalang, Kab.Pemalang, Jawa Tengah",
+          "map": "https://maps.google.com/maps?q=Jl.%20Sumatera%207,%20Mulyoharjo,%20Kec.%20Pemalang,%20Kabupaten+Pemalang,%20Jawa%20Tengah%2052313&t=&z=17&ie=UTF8&iwloc=&output=embed"
+        },
+        "time": "09:00AM - 02:00PM"
+      },
+      "calendar": {
+        "google": "https://calendar.google.com/calendar/render?action=TEMPLATE&dates=20210111T020000Z%2F20210111T070000Z&details=&location=Jl.%20Sumatera%207,%20Mulyoharjo,%20Kec.%20Pemalang,%20Kabupaten+Pemalang&text=Dica%20%26%20Debby%20Ngunduh Mantu&trp=false",
         "outlook": "https://outlook.live.com/owa/?body=&enddt=20191110T133519&location=Casa%20Garden%2C%20Sacremento&path=%2Fcalendar%2Faction%2Fcompose&rru=addevent&startdt=20191110T133519&subject=Nathaniel%20%26%20Samantha%20Wedding"
       }
     }
