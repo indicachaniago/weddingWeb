@@ -94,7 +94,7 @@ function Map() {
         <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>1. Memakai masker </u> </Note>
         <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>2. Mencuci tangan </u> </Note>
         <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>3. Menjaga jarak </u> </Note>
-        <Image src={cover} alt="" />
+        <Image data-sal="zoom-in" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in" src={cover} alt="" />
         <DateList />
       </TextContainer>
     </Container>
