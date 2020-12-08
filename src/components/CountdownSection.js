@@ -25,7 +25,7 @@ const CountContainer = styled.div`
   display: flex;
 
   ${media.phone`
-    flex-direction: column;
+    flex-direction: row;
   `}
 `;
 

@@ -5,7 +5,7 @@ import styled from "styled-components";
 import media from "./media";
 
 const Container = styled.div`
-  margin: 0 2rem;
+  margin: 0 0.6rem;
   text-align: center;
 `;
 
@@ -15,7 +15,7 @@ const Count = styled.p`
   color: ${props => props.theme.colors.primary};
 
   ${media.phone`
-    margin: 0.5rem 0;
+    margin: 3rem 0;
   `}
 `;
 

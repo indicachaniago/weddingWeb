@@ -9,7 +9,7 @@ import brideImg from "../images/bride.jpg";
 import groomImg from "../images/groom.jpg";
 
 const Container = styled.section`
-  padding: 6rem 2rem;
+  padding: 2rem 2rem;
 `;
 
 const TitleContainer = styled.header`

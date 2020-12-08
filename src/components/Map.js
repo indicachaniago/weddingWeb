@@ -30,7 +30,7 @@ const Container = styled.section`
 `;
 
 const TextContainer = styled.div`
-  padding: 5rem 2rem;
+  padding: 0rem 2rem;
   text-align: center;
 `;
 
