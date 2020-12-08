@@ -11,7 +11,7 @@ import media from "./media";
 const Container = styled.section`
   display: flex;
   align-items: center;
-  padding: 8rem 0;
+  padding: 1rem 0;
   justify-content: center;
   background: url(${backgroundImg}) rgba(0, 0, 0, 0.4);
   background-blend-mode: overlay;

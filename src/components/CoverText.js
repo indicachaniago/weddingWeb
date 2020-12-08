@@ -7,7 +7,7 @@ import media from "./media";
 
 const Heart = styled.svg`
   display: block;
-  margin: 3rem auto;
+  margin: 1rem auto;
   fill: ${props => props.theme.colors.primary};
 `;
 
