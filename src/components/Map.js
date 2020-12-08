@@ -6,6 +6,14 @@ import media from "./media";
 import animationParams from "./animation-params";
 import { graphql, useStaticQuery } from "gatsby";
 
+import cover from "../images/3m.jpg";
+
+const Image = styled.img`
+  height: 30%;
+  object-fit: cover;
+  width: 60%;
+`;
+
 const Container = styled.section`
   height: 100vh;
   display: flex;
@@ -82,7 +90,11 @@ function Map() {
       <TextContainer>
         <Heading {...animationParams}>When & Where</Heading>
         <Note> <b> Catatan: </b> </Note>
-        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>sesuai protokol kesehatan, setiap tamu diwajibkan menggunakan masker dan menjaga jarak. </u> </Note>
+        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>Sesuai protokol kesehatan, para tamu undangan wajib menerapkan 3M : </u> </Note>
+        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>1. Memakai masker </u> </Note>
+        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>2. Mencuci tangan </u> </Note>
+        <Note data-sal="slide-left" data-sal-delay="300" data-sal-duration= "800" data-sal-easing= "ease-in"> <u>3. Menjaga jarak </u> </Note>
+        <Image src={cover} alt="" />
         <DateList />
       </TextContainer>
     </Container>
