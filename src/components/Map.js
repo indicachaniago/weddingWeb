@@ -9,9 +9,9 @@ import { graphql, useStaticQuery } from "gatsby";
 import cover from "../images/3m.jpg";
 
 const Image = styled.img`
-  height: 30%;
+  height: 50%;
   object-fit: cover;
-  width: 60%;
+  width: 90%;
 `;
 
 const Container = styled.section`
@@ -50,7 +50,7 @@ const MapContainer = styled.div``;
 const GoogleMap = styled.iframe`
   border: 0;
   width: 100%;
-  height: 100%;
+  height: 125%;
 `;
 
 const QUERY = graphql`

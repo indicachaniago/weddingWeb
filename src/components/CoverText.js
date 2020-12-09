@@ -12,7 +12,7 @@ const Heart = styled.svg`
 `;
 
 const Text = styled.span`
-  margin: 1rem;
+  margin: 1.5rem;
   font-size: 1.5rem;
 `;
 
